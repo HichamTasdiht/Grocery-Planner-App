@@ -62,7 +62,8 @@ To ensure clean separation of concerns and bypass forced file-based routing prot
     └── screens/
         ├── RecipesScreen.tsx  <-- View: API Consumption
         └── ShoppingScreen.tsx <-- View: Local SQLite UI
-
+/
+```
 ---
 		
 ## 5. Database Schema
