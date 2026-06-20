@@ -1,8 +1,8 @@
 # Technical Report: Smart Grocery & Recipe Planner
 
-**Institution:** SUPMTI
-**Program:** 4th Year ISII  
-**Author:** Hisham  
+
+**Author:** Hisham Tasdiht 
+**Program:** 4 ISII  
 **Project Type:** React Native Mobile Application Evaluation  
 
 ---
@@ -31,7 +31,9 @@ This interface acts as the online consumer of the application. It connects to **
 * **Key Functionality:** Implements asynchronous `fetch` requests wrapped in `try/catch/finally` blocks to handle network states (loading indicators) and error boundaries gracefully.
 * **Data Binding:** Results are rendered via an optimized `FlatList` component, passing the API's unique `idMeal` as the render key.
 
-> **[Insert Screenshot: Recipes Search & Feed]** > ![Recipes Interface](./screenshots/recipes_screen.png)
+>(./screenshots/recipes_screen1.jpeg)
+>(./screenshots/recipes_screen2.jpeg)
+
 
 ### 3.2. The Offline Shopping List (Local SQLite CRUD)
 This interface acts as the local data manager, allowing the user to track their inventory securely on their physical device.
@@ -41,7 +43,7 @@ This interface acts as the local data manager, allowing the user to track their 
   * **Update:** Tapping an item fires an `UPDATE` query, toggling the integer state of `is_bought` and triggering a UI strike-through.
   * **Delete:** A dedicated action drops the row from the local data table.
 
-> **[Insert Screenshot: Shopping List & CRUD Form]** > ![Shopping List Interface](./screenshots/shopping_list_screen.png)
+> (./screenshots/shopping_list_screen.png)
 
 ---
 
